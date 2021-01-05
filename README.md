@@ -1,11 +1,9 @@
-<img src="https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg" align="left" width="144px" height="144px"/>
-
 #### aws
-> An [Oh My Fish][omf] plugin for the [Amazon Web Services CLI][aws-cli].
+> A Fish plugin for the [Amazon Web Services CLI][aws-cli]. Adapted from the [Oh My Fish!][omf] [plugin-aws][plugin-aws].
 
 [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
-[![Fish Shell Version](https://img.shields.io/badge/fish-v2.2.0-007EC7.svg?style=flat-square)](https://fishshell.com)
-[![Oh My Fish Framework](https://img.shields.io/badge/Oh%20My%20Fish-Framework-007EC7.svg?style=flat-square)][omf]
+[![Fish Shell Version](https://img.shields.io/badge/fish-v3.1.0-007EC7.svg?style=flat-square)](https://fishshell.com)
+
 
 <br/>
 
@@ -17,7 +15,7 @@ Currently provides two integrations beyond just the base features of the [AWS CL
 ## Install
 
 ```fish
-$ omf install aws
+$ fisher install jerr0328/plugin-aws
 ```
 
 
@@ -51,7 +49,8 @@ Your current profile is saved between shell sessions.
 [asp]: https://github.com/mgoodness/plugin-asp
 [author]: https://github.com/sagebind
 [aws-cli]: https://aws.amazon.com/cli/
-[contributors]: https://github.com/oh-my-fish/plugin-aws/graphs/contributors
+[contributors]: https://github.com/jerr0328/plugin-aws/graphs/contributors
 [license-badge]: https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
 [mit]: https://opensource.org/licenses/MIT
 [omf]: https://github.com/oh-my-fish/oh-my-fish
+[plugin-aws]: https://github.com/oh-my-fish/plugin-aws
